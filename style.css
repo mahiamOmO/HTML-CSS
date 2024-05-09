@@ -1,0 +1,72 @@
+body {
+  background-image: url('1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h3 {
+  text-align: center;
+  color: #000;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+a:hover {
+  color: #017bf5;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.logo img {
+  width: 150px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.features {
+  display: flex;
+  justify-content: space-around;
+  padding: 50px 0;
+}
+
+.feature {
+  text-align: center;
+}
+
+.feature img {
+  width: 100px;
+  height: auto;
+}
+
+.courses {
+  background-color: #f4f4f4;
+  padding: 50px 0;
+}
+
+.course {
+  width: 22%;
+  margin: 1%;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.course img {
+  width: 100%;
+  height: auto;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
